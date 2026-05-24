@@ -1,1 +1,3 @@
+If you're ready to Test your app, you have to first install quite a lot of extenstions. I used Vs Code in creation of this 'Python App'. Yes , I said 'Python App'.
+
 
