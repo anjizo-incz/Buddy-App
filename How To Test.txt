@@ -1,3 +1,25 @@
 If you're ready to Test your app, you have to first install quite a lot of extenstions. I used Vs Code in creation of this 'Python App'. Yes , I said 'Python App'.
 
+------------------------------------
 
+just bash this line into your Vs code terminal  and they will all download: 
+
+pip install psutil keyboard pystray Pillow mss
+
+-----------------------------------
+
+After you've installed all the requirements ,bash this into terminal to run the app in vs code:
+
+python main.py
+
+--------------------------------------
+
+If youre ready to ship out you're project as a complete app , bash this into terminal:
+
+pyinstaller --noconfirm --onedir --windowed --name "Buddy" --icon "buddy_icon.ico" --add-data "Splash;Splash/" --add-data "Animations;Animations/" --add-data "face_idle.png;." --add-data "buddy_icon.ico;." "main.py"
+
+then install 'Inno Setup Compiler'  - this is a free app that'll package your app into a industry standard installer and compress it heavilly from like 400mb to 100mb or less ---
+
+remember to create a icon as a .png file or whatever and then convert it into a .ico file via an online converter or whatever source of choice. This file is needed before to run the app. call it buddy_icon.ico ...
+
+If you have any questions ,ask .
